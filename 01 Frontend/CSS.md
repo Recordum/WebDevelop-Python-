@@ -13,3 +13,11 @@
 ## color font
 
 1. color  : rgb(255,0,0); = color : #f00;
+2. background-color
+3. fontzie
+
+## box_model
+1. margin
+2. padding
+3. border
+4. margin(top,right,bottom,left)
