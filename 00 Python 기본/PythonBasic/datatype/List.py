@@ -1,3 +1,4 @@
+
 # 리스트 초기화 방법
 a = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
@@ -49,12 +50,4 @@ print(a)
 
 a.pop(0) # 해당 index 삭제
 print(a)
-
-count = a.count(9) # 해당 value count
-print(count)
-
-
-
-
-
 
