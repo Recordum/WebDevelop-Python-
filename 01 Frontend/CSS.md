@@ -21,3 +21,8 @@
 2. padding
 3. border
 4. margin(top,right,bottom,left)
+
+##position
+1. relative 자신기준으로 위치설정
+2. absolute static이 아닌 부모를 찾아서 기준
+3. fixed 스크롤해도 고정
