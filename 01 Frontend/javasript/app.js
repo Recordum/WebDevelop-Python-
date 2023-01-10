@@ -1,13 +1,19 @@
-const h1 = document.querySelector("div.hello:first-child h1");
+const LoginForm =  document.querySelector("#login-form");
+const LoginInput = document.querySelector("#login-form input");
 
-function handleTitleClick() {
-    //.className : class 명을 getter/setter
-    const clickedClass = "active"
-//    if(h1.classList.contains(clickedClass)){
-//        h1.classList.remove(clickedClass);
-//    }else{
-//       h1.classList.add(clickedClass);
-    h1.classList.toggle(clickedClass);
+const link = document.querySelector("#login-form a");
+
+
+function onLoginSubmit(event) {
+    event.preventDefault();
 }
 
-h1.addEventListener("click", handleTitleClick);
+function handleLinkClick(event) {
+    event.preventDefault();
+    console.dir(event);
+
+}
+
+LoginForm.addEventListener("submit", onLoginSubmit);
+
+link.addEventListener("click", handleLinkClick)
